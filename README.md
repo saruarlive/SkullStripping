@@ -1,6 +1,6 @@
 # SkullStripping
-Skull stripping of large and heterogenous MRI images 
-We have used fastai2 and monai 3.0 for skull stripping. 
+The project is about skull stripping of large and heterogenous MRI images using state-of-the-art methods.
+We have used fastai2 and monai 3.0 for the project. 
 
 
 #### To install fastai2(2020) in Anaconda (latest version), we can follow following instructions (in Ubuntu 18.04, may work with other linux kernels, can't guarantee that it will work).
