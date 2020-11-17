@@ -27,9 +27,9 @@ We have used fastai2 and monai 3.0 for skull stripping.
 <em>` pip install monai`</em>
 
 
-####  The segmentation result is shown below on test set (927 images) while 3D U-Net is used. While doing inference, we have tranformed test images into the validation image space. 
+ The segmentation result is shown below on test set (927 images) while 3D U-Net is used. While doing inference, we have tranformed test images into the validation image space. 
 ![3DUnet segmentation output](3DU-NETOutput1.png)
 
-####  The segmentation result on test set (927 images) is displayed below while 3D nnU-Net is used. We have executed inference on the test image space using sliding window inference. The combination of dice loss and corss entropy loss were used while training.
+The segmentation result on test set (927 images) is displayed below while 3D nnU-Net is used. We have executed inference on the test image space using sliding window inference. The combination of dice loss and corss entropy loss were used while training.
 
 ![nn-Unet segmentation output](nnU-NETOutput.jpeg)
